@@ -228,4 +228,10 @@ footer {
   .cute-heading {
     font-size: 28px; /* Adjust font size for smaller screens */
   }
+   .btn-donation,
+  .dff-btn {
+    display: block; /* Display buttons as block elements */
+    width: 100%; /* Set the width to 100% to fit the screen width */
+    margin-bottom: 10px; /* Add some spacing between the buttons */
+  }
 }

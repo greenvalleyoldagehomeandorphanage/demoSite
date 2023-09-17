@@ -1,0 +1,231 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+/* Header styles */
+header {
+  background-image: url(../image/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  color: #fff;
+  height: 100vh;
+  padding: 0px 0;
+}
+nav {
+  background-color: #00000085;
+  position: fixed !important;
+  /* display: block !important; */
+  width: 100%;
+}
+section {
+  margin-top: 20px !important;
+}
+/* defalt button */
+.dff-btn {
+  background-color: #ffffff;
+  color: #0d4e2c;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  border: 5px solid #0d4e2c !important;
+  padding: 12px 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dff-btn:hover {
+  background-color: #0d4e2c;
+  color: #ffffff;
+  border: 5px solid #0d4e2c !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: 100px;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  padding: 20px 20px !important;
+  transition: color 0.3s ease-in-out !important;
+}
+.nav-link:hover {
+  background-color: #0d4e2c;
+  border-radius: 10px;
+  transition: background-color 0s ease-in-out !important;
+}
+.btn_donation {
+  color: #fff !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  padding: 20px 20px !important;
+  transition: background-color 0.2s ease-in-out !important;
+  background-color: #0d4e2c !important;
+  border-radius: 0px 20px 0px 20px !important;
+}
+.btn_donation:hover {
+  background-color: #fff !important;
+  color: #0d4e2c !important;
+  border-radius: 10px;
+  transition: color 0.3s ease-in-out !important;
+}
+.btn-donation {
+  background-color: #0d4e2c;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  border: 5px solid #0d4e2c !important;
+  padding: 12px 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-donation:hover {
+  background-color: #fff;
+  color: #0d4e2c;
+  border: 5px solid #0d4e2c !important;
+  transition: background-color 0.3s ease-in-out;
+}
+/* event section */
+
+.section-event {
+  background-color: #fcf2eb;
+  padding: 100px 0;
+}
+
+.event-image {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-content {
+  padding: 40px;
+}
+/* Section styles */
+.section-about {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.about-image {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  padding: 40px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.bg-1 {
+}
+
+/* whta we do  */
+/* Background and general styling */
+.bg-cute {
+  background: url(../image/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh; /* Use min-height instead of height to ensure content fits */
+  padding: 50px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+/* Cute text styling */
+.cute-text {
+  color: #030000; /* Cute text color */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cute-heading {
+  color: #000000; /* Cute heading color */
+  font-size: 36px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Service item styling */
+.single-service {
+  background-color: #0d4e2cab;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px #0d4e2cab;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.service-icon img {
+  max-width: 60px;
+  height: auto;
+}
+
+.service-caption h5 {
+  color: #ffffff; /* Text color for service title */
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.service-caption p {
+  color: #f1eaea; /* Text color for service description */
+  font-size: 14px;
+}
+
+/* Hover effect for service items */
+.single-service:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff; /* Set text color to white */
+  padding: 20px 0; /* Adjust padding for mobile */
+  text-align: center; /* Center-align footer text */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  /* Adjust styles for smaller screens if needed */
+  .bg-cute {
+    padding: 30px 0; /* Adjust padding for smaller screens */
+  }
+
+  .cute-text {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .cute-heading {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+}
